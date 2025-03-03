@@ -71,7 +71,7 @@ class EmployeePayroll {
         }
     }
 
-    
+    // Method to display employee details
     getDetails = () => 
         `ID: ${this.id}, Name: ${this.name}, Salary: $${this.salary}, Gender: ${this.gender}, Start Date: ${this.startDate.toDateString()}`;
 }
